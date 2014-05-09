@@ -1,10 +1,8 @@
-platform :ios, '6.0'
+platform :ios, '5.0'
 pod 'DTCoreText', '~> 1.6.11'
 pod 'AFNetworking', '1.3.3'
-pod 'SBJson', '~> 4.0.1'
-pod 'BlocksKit', '~> 2.2.0'
 pod 'CocoaLumberjack', '~> 1.7.0'
-pod 'VKFoundation', :git => "https://github.com/viki-org/VKFoundation.git"
+pod 'VKFoundation', '0.1.1'
 pod 'CocoaHTTPServer'
 
 target 'VKVideoPlayerTests' do

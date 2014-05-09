@@ -39,7 +39,6 @@
 
 - (void)initialize {
 
-  __weak __typeof__(self) weakSelf = self;
   self.customControls = [NSMutableArray array];
   self.portraitControls = [NSMutableArray array];
   self.landscapeControls = [NSMutableArray array];
@@ -104,9 +103,7 @@
     button.clipsToBounds = YES;
   }
   
-  [self.topPortraitCloseButton bk_addEventHandler:^(id sender) {
-    [weakSelf.delegate doneButtonTapped];
-  } forControlEvents:UIControlEventTouchUpInside];
+  [self.topPortraitCloseButton addTarget:self action:@selector(doneButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (id)initWithFrame:(CGRect)frame {
