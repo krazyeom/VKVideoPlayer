@@ -80,7 +80,7 @@
   UIButton *playSample1Button = [UIButton buttonWithType:UIButtonTypeCustom];
   playSample1Button.frame = CGRectMake(10,40,80,40);
   [playSample1Button setTitle:@"sample1" forState:UIControlStateNormal];
-  [playSample1Button addEventHandler:^(id sender) {
+  [playSample1Button bk_addEventHandler:^(id sender) {
     [weakSelf playSampleClip1];
   } forControlEvents:UIControlEventTouchUpInside];
   [self.player.view addSubviewForControl:playSample1Button];
@@ -88,7 +88,7 @@
   UIButton *playSample2Button = [UIButton buttonWithType:UIButtonTypeCustom];
   playSample2Button.frame = CGRectMake(100,40,80,40);
   [playSample2Button setTitle:@"sample2" forState:UIControlStateNormal];
-  [playSample2Button addEventHandler:^(id sender) {
+  [playSample2Button bk_addEventHandler:^(id sender) {
     [weakSelf playSampleClip2];
   } forControlEvents:UIControlEventTouchUpInside];
   [self.player.view addSubviewForControl:playSample2Button];

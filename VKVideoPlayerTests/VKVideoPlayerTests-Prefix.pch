@@ -15,3 +15,5 @@
 #import "Expecta.h"
 #import "DemoHTTPStreamingServer.h"
 #import "OCMock.h"
+
+#import <BlocksKit+UIKit.h>

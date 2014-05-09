@@ -104,10 +104,9 @@
     button.clipsToBounds = YES;
   }
   
-  [self.topPortraitCloseButton addEventHandler:^(id sender) {
+  [self.topPortraitCloseButton bk_addEventHandler:^(id sender) {
     [weakSelf.delegate doneButtonTapped];
   } forControlEvents:UIControlEventTouchUpInside];
-  
 }
 
 - (id)initWithFrame:(CGRect)frame {

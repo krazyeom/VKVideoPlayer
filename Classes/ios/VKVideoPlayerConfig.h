@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import <AVFoundation/AVFoundation.h>
 #import <DDLog.h>

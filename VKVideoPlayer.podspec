@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.author           = { "Keisuke Matsuo" => "matzo@viki.com" }
   s.source           = { :git => "https://github.com/viki-org/VKVideoPlayer.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '5.0'
-  s.ios.deployment_target = '5.0'
+  s.platform     = :ios, '6.0'
+  s.ios.deployment_target = '6.0'
   s.requires_arc = true
 
   s.source_files = 'Classes/ios/*.{h,m}'
@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
 
   s.frameworks = 'QuartzCore', 'MediaPlayer', 'AVFoundation'
-  s.dependency 'DTCoreText', '1.6.10'
+  s.dependency 'DTCoreText', '~> 1.6.11'
   s.dependency 'AFNetworking', '1.3.3'
-  s.dependency 'SBJson', '3.1'
-  s.dependency 'BlocksKit', '~> 1.8.3'
+  s.dependency 'SBJson', '~> 4.0.1'
+  s.dependency 'BlocksKit', '~> 2.2.0'
   s.dependency 'CocoaLumberjack', '~> 1.7.0'
-  s.dependency 'VKFoundation'
+  s.dependency 'VKFoundation', '0.1.0'
 
   I18n.enforce_available_locales = false
 end
