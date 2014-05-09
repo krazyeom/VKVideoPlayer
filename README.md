@@ -22,7 +22,7 @@ After installed pod, open `VKVideoPlayer.xcworkspace` in Xcode to run Demo Appli
 VKVideoPlayer is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
-    pod "VKVideoPlayer", "~> 1.0"
+    pod "VKVideoPlayer", "~> 0.1.0"
 
 ## Getting Start
 Simple way to play Http Live Streaming contents.
