@@ -157,7 +157,7 @@ This method is called when ocurred an error.
 
 ## Requirements
 
-iOS 5.0 or later
+iOS 6.0 or later
 
 ## License
 
