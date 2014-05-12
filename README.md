@@ -1,5 +1,7 @@
 # VKVideoPlayer
 
+![VKVideoPlayer](http://engineering.viki.com/images/blog/video_player_running_man.jpg)
+
 VKVideoPlayer is the same battle tested video player used in our [Viki iOS App](https://itunes.apple.com/app/id445553058?mt=8&&referrer=click%3Dda6fe9d2-66b5-4f5e-a45e-8aa1eb02b82b) enjoyed by millions of users all around the world.
 
 Some of the  advance features are:
